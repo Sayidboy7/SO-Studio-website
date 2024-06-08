@@ -6,6 +6,9 @@
 
 body {
     background-color:rgb(239, 243, 234);
+    background-image: url(/background1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .navbar .nav .active {
@@ -285,6 +288,31 @@ button:hover {
 
 .comment-section textarea {
     margin: 60px;
+}
+
+.logo-2 {
+    color: coral;
+    font-size: 70px;
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 100px;
+    font-family: fantasy;
+    font-weight:300;
+}
+
+.mini-logo-2{
+    font-family: cursive;
+}
+
+.submited h1 {
+    background-color: green;
+    color: coral;
+    padding: 100px;
+    text-align: center;
+    margin: 20px;
+    margin-left: 800px;
+    margin-top: 100px;
+    border-radius:20px ;
 }
 
 .footer {
