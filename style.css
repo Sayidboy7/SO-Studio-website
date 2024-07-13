@@ -403,6 +403,9 @@ button:hover {
     #main-content {
         display:block;
     }
+     .logo .mini-logo {
+        display:none;
+    }
     #main-content .plans {
         padding: 50px;
         font-size: 24px;
