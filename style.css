@@ -406,6 +406,12 @@ button:hover {
      .logo .mini-logo {
         display:none;
     }
+
+    .logo{
+        text-align: center;
+        font-size: 30px;
+    }
+    
     #main-content .plans {
         padding: 50px;
         font-size: 24px;
