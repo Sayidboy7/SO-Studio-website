@@ -430,9 +430,12 @@ button:hover {
         margin: 10px;
         width: 70%;
     }
+
+    .navbar .nav ul {
+        margin:auto;
+    }
       .navbar .nav ul li a{
         margin: auto;
-        margin-left: 10px;
     }
     
      .characters-info .character-info-items .character-info-item{
