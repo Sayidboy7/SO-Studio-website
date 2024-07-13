@@ -6,14 +6,14 @@
 
 body {
     background-color:rgb(239, 243, 234);
-    background-image: url(.../background1.jpg);
+    background-image: url(/background1.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .navbar .nav .active {
     color: coral;
-}
+}  
 
 .logo {
     background-color: rgb(253, 231, 200);
@@ -198,7 +198,7 @@ body {
 }
 
 .characters-info {
-    background-image: url(.../historic.jpg);
+    background-image: url(/historic.jpg);
     background-position: center;
     background-size: cover;
     display: flex;
@@ -332,3 +332,69 @@ button:hover {
     margin-top: 159px;
 }
 
+@media screen and (max-width:412px) {
+    .logo .mini-logo {
+        display:none;
+    }
+
+    .logo{
+        text-align: center;
+        font-size: 30px;
+    }
+
+    .navbar .nav ul li{
+        
+    }
+
+    #main-content{
+        display:block;
+        margin: auto;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #main-content .plans {
+        padding: 50px;
+        font-size: 24px;
+        margin: 10px;
+        width: 70%;
+    }
+
+    #main-conttent .plans ul li{
+        margin: 50px;
+        font-size: 24px;
+        margin: 10px;
+    }
+
+    #main-content .group {
+        padding: 50px;
+        font-size: 24px;
+        margin:10px;
+        width: 70%;
+    }
+
+    #main-content .characters {
+        padding: 70px;
+        font-size: 24px;
+        margin: 10px;
+        width: 70%;
+    }
+
+    .characters-info .character-info-items{
+        display: block;
+        width: 300px;
+        margin: auto;
+    }
+
+    .characters-info .character-info-items .character-info-item{
+        width: 100%;
+        margin: auto;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+
+    .navbar .nav ul li a{
+        margin: auto;
+        margin-left: 10px;
+    }
+}
