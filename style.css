@@ -424,6 +424,22 @@ button:hover {
         margin: 10px;
         width: 70%;
     }
-        
+      .navbar .nav ul li a{
+        margin: auto;
+        margin-left: 10px;
+    }
+    
+     .characters-info .character-info-items .character-info-item{
+        width: 100%;
+        margin: auto;
+        padding: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .characters-info .character-info-items{
+        display: block;
+        width: 300px;
+        margin: auto;
+    }
 }
     
