@@ -401,7 +401,7 @@ button:hover {
 
 @media screen and (max-width:540px){
     #main-content {
-        display:flex;
+        display:block;
     }
     #main-content .plans {
         padding: 50px;
