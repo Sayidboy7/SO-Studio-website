@@ -1,0 +1,32 @@
+
+body {
+    background-image: url(/pnj.jpg);
+    background-position: center ;
+    background-size: 1500px;
+    background-repeat: no-repeat;
+}
+
+.container {
+    text-align: center;
+    background-color: darkgreen;
+    color: darkorange;
+    font-family: sans-serif;
+    border-radius: 20px;
+    padding: 50px;
+    margin: 100px;
+}
+
+button {
+    border: none;
+    padding: 20px;
+    border-radius:20px ;
+    
+}
+
+button a {
+    text-decoration : none ;
+    color : #b0002b ;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 17px;
+}
