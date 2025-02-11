@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Portfolio</title>
+    <link rel="stylesheet" href="{{ style }}">
+</head>
+<body>
+
+    <header id="navbar">
+        <ul>
+            {% if 'name' in session %}
+                <li> <a href="#" class="active">Home</a></li>
+                <li> <a href="{{ url_for('About') }}">About me</a></li>
+                <li> <a href="{{ url_for('logout') }}">Logout</a></li>
+            {% else: %}
+                <li> <a href="{{ url_for('Contact') }}">Login</a></li>
+            {% endif %}
+        </ul>
+    </header>
+
+    <div class="clr"></div>
+
+    <div class="container">
+    <h1>Hi, everyone I am <span class="logo">Sancho</span> Developer</h1>
+    <p>This is my portfolia.I am Sancho Developer from Uzbekistan. 
+        I live in small house in Canada is my office and home.
+        Howewer I like <strong><span class="logo">Ice Cream</span></strong>
+    </p>
+    <button> <a href="/templates/ me.html">Read More</a></button>
+    </div>
+
+    <img src="/static/image.jpg">
+
+    <h1></h1>
+
+    <div class="foter">
+        
+        <h3>All Rights Reservered &copy 2024 | Sancho Develop</h3>
+    
+    </div>
+
+
+</body>
+</html>

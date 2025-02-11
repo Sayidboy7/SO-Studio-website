@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About me title </title>
+    <link rel="stylesheet" href="/static/About.css">
+</head>
+<body>
+    
+    <header id="navbar">
+        <ul>
+        {% if 'name' in session %}
+            <li> <a href="{{ url_for('home') }}">Home</a></li>
+            <li> <a href="#" class="active">About me</a></li>
+            <li> <a href="{{ url_for('logout') }}">Logout</a></li>
+        {% else: %}
+            <li> <a href="{{ url_for('Contact') }}">Login</a></li>
+        {% endif %}
+        </ul>
+    </header>
+
+  <div class="container">
+    <h1>About me and Our Company</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste, maiores molestias aut impedit delectus deleniti omnis iusto laboriosam soluta. Praesentium deserunt suscipit sunt quo quis voluptas quod vel, perferendis cumque itaque recusandae repellendus ipsa. Quo voluptatibus obcaecati, provident harum necessitatibus, iure quia laborum voluptas deserunt distinctio labore quam voluptate iusto accusamus suscipit fugit repellendus vel natus atque ad pariatur magnam dicta? Quas nobis cumque nulla vel debitis beatae dolor. A, magni. Veritatis odit quae explicabo saepe beatae illo culpa asperiores ab numquam nostrum ea distinctio recusandae aliquam repellendus, eos voluptatem quibusdam consequuntur! Porro recusandae voluptates id explicabo inventore. Quis, ipsam?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati voluptatem dolorum itaque reiciendis laudantium nam deserunt dicta nostrum a accusamus.</p>
+   
+  </div>
+        
+  <div class="foter">
+        
+    <h3>All Rights Reservered &copy 2024 | Sancho Develop</h3>
+
+</div>
+
+</body>
+</html>
