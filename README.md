@@ -1,1 +1,1 @@
-Bu SO Kompaniyasinig Web sayti.
+Bu Sayidboy Yo'ldoshovning GitHub Sahifasi
