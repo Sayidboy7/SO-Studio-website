@@ -1,1 +1,1 @@
-Bu Sayidboy Yo'ldoshovning GitHub Sahifasi
+This Sayidboy's GitHub Page
